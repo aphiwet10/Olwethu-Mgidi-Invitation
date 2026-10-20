@@ -24,7 +24,7 @@ window.EVENT = {
   rsvpBy: "10 December 2026"
   
 };
-window.RSVP_WHATSAPP = "+27828757176";
+window.RSVP_WHATSAPP = "+27848992436";
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +40,7 @@ window.RSVP_WHATSAPP = "+27828757176";
   --stripe-deep:#c5904f;
   --ochre:#c5904f;       /* copper / ochre line work */
   --ink:#2a1d16;
-  --muted:#6e5a4c;
+  --muted:#aa5d25;
   --on-dark:#f4ece1;
   --on-dark-muted:#cdbba8;
   --f-display:"Cinzel","Trajan Pro",Georgia,serif;
@@ -119,7 +119,7 @@ header.bar .stripes{height:12px;background:linear-gradient(to bottom,var(--strip
 .frame i.c{position:absolute;width:9px;height:9px;background:var(--ochre);transform:rotate(45deg)}
 .frame i.c:nth-child(1){top:-5px;left:-5px}.frame i.c:nth-child(2){top:-5px;right:-5px}
 .frame i.c:nth-child(3){bottom:-5px;left:-5px}.frame i.c:nth-child(4){bottom:-5px;right:-5px}
-.hero .eyebrow{color:#e6b87e}
+.hero .eyebrow{color:var(--muted)}
 .hero h1{font-family:var(--f-display);font-weight:500;font-size:clamp(40px,11vw,64px);line-height:1;letter-spacing:.06em;text-shadow:0 2px 18px rgba(0,0,0,.5)}
 .hero .nick{font-family:var(--f-script);font-size:clamp(44px,12vw,64px);color:var(--ochre);line-height:.8;margin-block:-4px}
 .hero .proverb{font-style:italic;font-size:21px;line-height:1.35;color:var(--on-dark)}
@@ -141,7 +141,7 @@ header.bar .stripes{height:12px;background:linear-gradient(to bottom,var(--strip
 .family small{font-style:italic;color:var(--muted);font-size:14px}
 .family .mid{width:1px;align-self:stretch;background:var(--stripe);position:relative}
 .family .mid::after{content:"";position:absolute;top:50%;left:50%;width:9px;height:9px;background:var(--stripe);transform:translate(-50%,-50%) rotate(45deg)}
-.invite .eyebrow{color:var(--stripe)}
+.invite .eyebrow{color:varvar(--muted)}
 .invite h2{font-family:var(--f-display);font-size:clamp(24px,6.4vw,32px);letter-spacing:.08em;line-height:1.25}
 .invite .xh{font-size:19px;color:var(--ink);max-width:34em}
 .invite .en{font-size:17px;font-style:italic;color:var(--muted);max-width:34em}
@@ -157,10 +157,10 @@ header.bar .stripes{height:12px;background:linear-gradient(to bottom,var(--strip
 .venue{position:relative;color:var(--on-dark);background:var(--hide) center/cover no-repeat;isolation:isolate}
 .venue::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(27,19,16,.45),rgba(27,19,16,.72) 45%,rgba(27,19,16,.85))}
 .venue .inner{padding-block:84px 88px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:20px}
-.venue .eyebrow{color:#e6b87e}
+.venue .eyebrow{color:#3c2100}
 .venue h2{font-family:var(--f-display);font-size:clamp(28px,7.5vw,40px);letter-spacing:.1em}
-.venue .lead{font-style:italic;font-size:19px;max-width:30em;color:var(--on-dark)}
-.venue .lead span{display:block;color:var(--on-dark-muted);font-size:17px}
+.venue .lead{font-style:italic;font-size:22px;max-width:30em;color:var(--on-dark)}
+.venue .lead span{display:block;color:var(--on-dark);font-size:20px}
 .addr{font-family:var(--f-display);letter-spacing:.18em;font-size:14px;line-height:2;text-transform:uppercase;padding:18px 20px;border-block:1px solid rgba(197,144,79,.6);width:100%;max-width:380px}
 .addr b{font-weight:500;display:block;font-size:16px;letter-spacing:.16em}
 .slot{font-style:italic;color:var(--on-dark-muted);font-size:16px}
@@ -174,13 +174,13 @@ header.bar .stripes{height:12px;background:linear-gradient(to bottom,var(--strip
 .count .inner{padding-block:64px 68px;display:flex;flex-direction:column;align-items:center;gap:18px}
 .count .eyebrow{color:#f2c9b3}
 .count h2{font-family:var(--f-display);font-size:clamp(26px,7vw,36px);letter-spacing:.12em}
-.count .sub{font-style:italic;color:#f7ddd0;font-size:18px}
+.count .sub{font-style:italic;color:#f9f8f8;font-size:18px}
 .count .diamond{color:#f2c9b3}
 .timer{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;width:100%;max-width:440px;margin-top:6px}
 .timer div{display:flex;flex-direction:column;align-items:center;gap:6px;padding-block:14px;border:1px solid rgba(255,230,215,.35)}
 .timer b{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,9vw,44px);line-height:1;font-variant-numeric:tabular-nums}
-.timer span{font-family:var(--f-display);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:#f7ddd0}
-.timer em{font-family:var(--f-body);font-size:12px;color:#f2c9b3;letter-spacing:0;text-transform:none;margin-top:-4px}
+.timer span{font-family:var(--f-display);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:#ffffff}
+.timer em{font-family:var(--f-body);font-size:12px;color:#f7ebe4;letter-spacing:0;text-transform:none;margin-top:-4px}
 
 /* ---------- RSVP ---------- */
 .rsvp{background:var(--wool)}
@@ -275,15 +275,6 @@ body{ max-width: var(--invite-width); margin: 0 auto; min-height: 100vh; box-sha
   right: max(0px, calc(50% - var(--invite-width) / 2));
 }
 </style>
-<style>
-/* ===== Bigger date ===== */
-.hero .when{ font-size: 24px; letter-spacing: .25em; }        /* date on the first page */
-.venue .slot{ font-size: 24px; }                              /* date & time at the venue */
-.count .sub{ font-size: 24px; }                               /* line above the countdown */
-</style>
-<style>
-.field:has(#f-email){ display:none; }
-</style>
 </head>
 <body>
 <div id="envelope" role="button" tabindex="0" aria-label="Vula isimemo · Open the invitation">
@@ -303,10 +294,14 @@ body{ max-width: var(--invite-width); margin: 0 auto; min-height: 100vh; box-sha
 
 <header class="bar">
   <div class="gutter"><div class="wrap row">
-    <div class="name">Olwethu Vice <small>“Oza”</small></div>
-    <div class="eyebrow">Umgidi</div>
   </div></div>
   <div class="stripes"></div>
+  <style>
+/* ===== Bigger date ===== */
+.hero .when{ font-size: 20px; letter-spacing: .25em; }        /* date on the first page */
+.venue .slot{ font-size: 20px; }                              /* date & time at the venue */
+.count .sub{ font-size: 20px; }                               /* line above the countdown */
+</style>
 </header>
 
 <main>
@@ -322,7 +317,7 @@ body{ max-width: var(--invite-width); margin: 0 auto; min-height: 100vh; box-sha
         <p class="proverb">Kwahamba inkwenkwe, kubuya indoda.<span>A boy left for the mountain. A man comes home.</span></p>
         <p class="when" id="heroDate" hidden></p>
         <p class="eyebrow" style="color:var(--on-dark)">Uyamenywa · You are invited</p>
-        <a class="btn" href="#rsvp">RSVP <span class="d"></span> Bhalisa</a>
+        <a class="btn" href="#rsvp">RSVP <span class="d"></span> Phendula</a>
       </div>
     </div></div>
   </section>
@@ -336,17 +331,17 @@ body{ max-width: var(--invite-width); margin: 0 auto; min-height: 100vh; box-sha
         <div class="mid"></div>
         <div class="side"><span class="big">KWAVICE</span></div>
       </div>
-      <p class="eyebrow">Uyamenywa ngembeko · You are cordially invited</p>
+      <p class="eyebrow">Uyamenywa ngembeko </p>
+      <p class="eyebrow">You are cordially invited</p>
       <p class="xh">Ngovuyo olukhulu, usapho lakwaVice, AmaNgxongo, OoZondwa, OoNtsundu, OoBhomoyi liyanimema ukuba nizokubhiyoza kunye nabo umgidi wonyana wabo, uOlwethu “Oza” Vice. Ugqibile uhambo lwakhe lobudoda entabeni, kwaye ngoku ubuyela ekhaya njengekrwala.</p>
       <p class="en">With great joy, the Vice family cordially invites you to celebrate the umgidi of our son, Olwethu “Oza” Vice. He has completed his journey to manhood on the mountain and now returns home as ikrwala, a new man.</p>
       <div class="diamond"><span></span></div>
       <p class="xh">Yiza nentliziyo evuyayo. Masimamkele ekhaya ngeengoma, ngomdaniso nangeengcebiso zabadala.</p>
       <p class="en">Come with a joyful heart, as we welcome him home with song, dance and the wisdom of the elders.</p>
       <div class="quote">Camagu!</div>
-      <p>Masibhiyoze kunye</p>
       <div class="notes">
-        <div><span class="eyebrow" style="color:var(--stripe)">Isinxibo</span><p>Isinxibo sesiNtu siyakhuthazwa<em>Traditional attire warmly encouraged</em></p></div>
-        <div><span class="eyebrow" style="color:var(--stripe)">Ukufika</span><p>Nceda ufike ngexesha<em>Kindly arrive on time</em></p></div>
+        <div><span class="eyebrow" style="color:var(--muted)">Isinxibo</span><p>Isinxibo sesiNtu siyakhuthazwa<em>Traditional attire warmly encouraged</em></p></div>
+        <div><span class="eyebrow" style="color:var(--muted)">Ukufika</span><p>Nceda ufike ngexesha<em>Kindly arrive on time</em></p></div>
       </div>
     </div></div>
   </section>
@@ -367,9 +362,8 @@ body{ max-width: var(--invite-width); margin: 0 auto; min-height: 100vh; box-sha
 
   <section class="count" id="countdown">
     <div class="gutter"><div class="wrap inner">
-      <p class="eyebrow">Sibala iintsuku</p>
       <h2>Ixesha Elishiyekileyo</h2>
-      <p class="sub" id="countSub">Kude kube lusuku lomgidi · Until the day of the umgidi</p>
+      <p class="sub" id="countSub">Sibala iintsuku · Countdown</p>
       <div class="diamond"><span></span></div>
       <div class="timer" aria-live="off">
         <div><b id="cd-d">--</b><span>Iintsuku</span><em>days</em></div>
